@@ -52,12 +52,13 @@ body{
 
 .total-boxes{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
 }
 
 .box{
-    width: 180px;
+    width: 160px;
     border: 2px solid;
     padding: 15px;
     border-radius: 10px;
