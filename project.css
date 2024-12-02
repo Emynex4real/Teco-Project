@@ -54,22 +54,31 @@ body{
 
 .total-boxes{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     gap: 10px;
     justify-content: center;
+    /* border: 2px solid; */
+
 }
 
+.group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* border: 2px solid; */
+
+}
 .box{
-    width: 160px;
-    border: 2px solid;
+    /* width: 40%; */
+    /* border: 2px solid; */
     padding: 15px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border: none;
+    /* border: none; */
 }
-
 .box i{
     font-size: 1.5rem;
 }
