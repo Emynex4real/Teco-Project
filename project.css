@@ -21,6 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position: relative;
 }
 .dashboard-panel{
     display: flex;
@@ -48,6 +49,7 @@ body{
 }
 .other-dashboard-panel i{
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .total-boxes{
@@ -88,6 +90,7 @@ body{
     margin-top: 10px;
     /* border: 1px solid; */
     text-align: end;
+    cursor: pointer;
 }
 
 .total-trade{
@@ -127,17 +130,30 @@ nav{
 }
 
 .nav-container{
-    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container-content{
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #2d333a;
     padding: 0px 30px;
     border-radius: 50px;
+    position: fixed;
+    top: 85vh;
+    width: 90%;
+    margin: auto;
+}
+.nav-container a{
+    text-decoration: none;
+    color: white;
 }
 
 .nav-container i{
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .fa-file-lines{
@@ -146,3 +162,4 @@ nav{
     border-radius: 50%;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
+/* WDBXWW */
