@@ -9,8 +9,20 @@
     line-height: 1.5;
 
 }
+:root{
+    --primary-color: #5F48E1;
+    --secondary-color: #F9750A;
+    --black-color: black;
+    --white-color: white;
+    --very-bold: 700;
+    --light-border: #FFF617;
+    
+}
+
+
+
 body{
-    background-color: #1f2225;
+    background-color: var(--primary-color);
     
 }
 .profit-reward{
@@ -28,6 +40,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--secondary-color);
+    height: 50px;
+    color: white;
+    padding: 10px;
+    border: 5px solid var(--light-border);
+    outline: 2px solid var(--black-color);
+    border-radius: 0px 0 10px 10px;
 }
 .profit-reward-panel .head{
     font-weight: 700;
@@ -64,7 +83,9 @@ body{
     flex-direction: column;
     gap: 10px;
     /* border: none; */
-    background: url(image/bg-card.png) rgb(35, 38, 47);
+    background: url(image/bg-card.png) var(--secondary-color);
+    border: 5px solid var(--light-border);
+    outline: 2px solid var(--black-color);
 }
 
 .profit-reward-container .text{
@@ -83,10 +104,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #23262F;
+    background-color: var(--secondary-color);
     height: 50px;
     padding: 20px;
     border-radius: 10px;
+    border: 5px solid var(--light-border);
+    outline: 2px solid var(--black-color);
 
 }
 .recent-claim-icon{
@@ -109,39 +132,4 @@ body{
 }
 .recent-claim .text{
     font-size: .9rem
-}
-
-.nav-container{
-    display: flex;
-    justify-content: center;
-}
-
-.nav-container-content{
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #2d333a;
-    padding: 0px 30px;
-    border-radius: 50px;
-    position: fixed;
-    top: 85vh;
-    width: 90%;
-    margin: auto;
-    box-shadow: 0 3px 16px 5px #34343575;
-}
-.nav-container a{
-    text-decoration: none;
-    color: white;
-}
-
-.nav-container i{
-    font-size: 1.7rem;
-}
-
-.fa-file-lines{
-    background-color: #42f687;
-    padding: 16px 18px;
-    border-radius: 50%;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
