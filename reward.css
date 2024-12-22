@@ -86,6 +86,12 @@ body{
     background: url(image/bg-card.png) var(--secondary-color);
     border: 5px solid var(--light-border);
     outline: 2px solid var(--black-color);
+    border: 5px solid var(--light-border);
+    outline: 2px solid var(--black-color);
+    background-image: url(image/download.png);
+    /* background-repeat: no-repeat; */
+    background-position: right;
+    background-size: cover;
 }
 
 .profit-reward-container .text{
