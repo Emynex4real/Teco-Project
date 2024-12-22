@@ -44,6 +44,11 @@ body{
     border: 5px solid var(--light-border);
     outline: 2px solid var(--black-color);
     border-radius: 0px 0 10px 10px;
+    background-image: url(image/download\ \(6\).png);
+    /* background-repeat: no-repeat; */
+    background-position: right;
+    background-size: cover;
+    
 
 }
 .icon-dashboard{
@@ -100,6 +105,11 @@ body{
     box-shadow: 0 8px 15px rgba(249, 117, 10, 0.3);
     border: 5px solid var(--light-border);
     outline: 2px solid var(--black-color);
+    background-image: url(image/download.png);
+    /* background-repeat: no-repeat; */
+    background-position: right;
+    background-size: cover;
+    
 }
 .box i{
     font-size: 1.5rem;
