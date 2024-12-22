@@ -91,11 +91,15 @@ body{
     /* width: 40%; */
     /* border: 2px solid; */
     padding: 15px;
+    background-color: var(--secondary-color);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     /* border: none; */
+    box-shadow: 0 8px 15px rgba(249, 117, 10, 0.3);
+    border: 5px solid var(--light-border);
+    outline: 2px solid var(--black-color);
 }
 .box i{
     font-size: 1.5rem;
@@ -120,7 +124,7 @@ body{
     cursor: pointer;
 }
 
-.total-trade{
+/* .total-trade{
     background-color: #8338ec;
     outline: 3px solid rgb(222, 113, 113);
 
@@ -141,7 +145,7 @@ body{
     background-color: #42f687;
     outline: 3px solid black;
 
-}
+} */
 
 .news-announcement{
     width: 100%;
