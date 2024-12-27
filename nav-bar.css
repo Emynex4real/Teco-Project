@@ -10,7 +10,7 @@ nav{
 }
 
 :root{
-    --primary-color: white;
+    --primary-color: #1C1C1E;
     --secondary-color: #8338ec;
     --black-color: black;
     --white-color: white;
@@ -147,7 +147,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 5px;
-    color: black;
+    color: white;
   }
 
   .profile-coins img{

@@ -102,7 +102,7 @@ body{
     flex-direction: column;
     gap: 5px;
     /* border: none; */
-    box-shadow: 0 8px 15px rgba(249, 117, 10, 0.3);
+    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.127);
     /* border: 5px solid var(--light-border);
     outline: 2px solid var(--black-color); */
     /* background-image: url(image/download.png); */
