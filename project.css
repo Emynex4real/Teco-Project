@@ -9,7 +9,7 @@
     line-height: 1.5;
 
 }
-:root{
+/* :root{
     --primary-color: #5F48E1;
     --secondary-color: #F9750A;
     --black-color: black;
@@ -17,7 +17,7 @@
     --very-bold: 700;
     --light-border: #FFF617;
     
-}
+} */
 
 body{
     background-color: var(--primary-color);
@@ -100,7 +100,7 @@ body{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     /* border: none; */
     box-shadow: 0 8px 15px rgba(249, 117, 10, 0.3);
     border: 5px solid var(--light-border);
