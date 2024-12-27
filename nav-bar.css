@@ -84,7 +84,7 @@ nav{
     /* justify-content: space-between; */
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
     border-radius: 12px;
-    gap: 70px;
+    gap: 40px;
     
   }
 
@@ -172,7 +172,7 @@ nav{
     font-size: 0.8rem;
     /* padding: 8px 15px; */
     width: 100px !important;
-    height: 30px;
+    height: 40px;
     border-radius: 8px;
     cursor: pointer;
     text-align: center;
