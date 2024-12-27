@@ -96,16 +96,16 @@ body{
     /* width: 40%; */
     /* border: 2px solid; */
     padding: 15px;
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
     /* border: none; */
     box-shadow: 0 8px 15px rgba(249, 117, 10, 0.3);
-    border: 5px solid var(--light-border);
-    outline: 2px solid var(--black-color);
-    background-image: url(image/download.png);
+    /* border: 5px solid var(--light-border);
+    outline: 2px solid var(--black-color); */
+    /* background-image: url(image/download.png); */
     /* background-repeat: no-repeat; */
     background-position: right;
     background-size: cover;
@@ -134,28 +134,28 @@ body{
     cursor: pointer;
 }
 
-/* .total-trade{
+.total-trade{
     background-color: #8338ec;
-    outline: 3px solid rgb(222, 113, 113);
+    /* outline: 3px solid rgb(222, 113, 113); */
 
 }
 
 .profit-paid{
     background-color: #3a86ff;
-    outline: 3px solid black;
+    /* outline: 3px solid black; */
 
 }
 .total-reward{
     background-color: #f94144;
-    outline: 3px solid black;
+    /* outline: 3px solid black; */
 
 }
 
 .total-referral{
     background-color: #42f687;
-    outline: 3px solid black;
+    /* outline: 3px solid black; */
 
-} */
+}
 
 .news-announcement{
     width: 100%;
