@@ -162,6 +162,8 @@ nav{
     /* padding: 10px 20px; */
     gap: 10px;
     position: relative;
+    width: 95%;
+    margin: auto;
     
   }
 
