@@ -32,7 +32,7 @@ nav{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    box-shadow: 0 8px 15px rgba(249, 117, 10, 0.3);
+    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.264);
 
 }
 
@@ -84,7 +84,7 @@ nav{
     /* justify-content: space-between; */
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
     border-radius: 12px;
-    gap: 40px;
+    gap: 20px;
     
   }
 
@@ -143,10 +143,31 @@ nav{
   }
 
   .profile-coins {
-    font-size: 1.2rem;
-    font-weight: bold;
+    background-color: var(--light-border);
+    height: 45px;
+    width: 200px;
+    border-radius: 20px 5px 20px 5px;
+    
+}
+.profile-coins .total-coins{
+    background-color: var(--secondary-color);
+    padding-left: 20px;
+    border-radius: 20px 5px 0 0;
+}
+.total-coins .head{
+    font-size: .7rem;
+}
+.profile-coins .coins{
     display: flex;
-    align-items: center;
+    align-items: end;
+    gap: 5px;
+    padding-left: 20px;
+    
+
+  }
+  .profile-coins .text{
+    font-size: 1rem;
+    font-weight: bold;
     gap: 5px;
     color: white;
   }

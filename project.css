@@ -93,20 +93,12 @@ body{
 
 }
 .box{
-    /* width: 40%; */
-    /* border: 2px solid; */
     padding: 15px;
-    /* background-color: var(--secondary-color); */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
-    /* border: none; */
     box-shadow: 0 3px 5px rgba(255, 255, 255, 0.127);
-    /* border: 5px solid var(--light-border);
-    outline: 2px solid var(--black-color); */
-    /* background-image: url(image/download.png); */
-    /* background-repeat: no-repeat; */
     background-position: right;
     background-size: cover;
     
@@ -136,7 +128,6 @@ body{
 
 .total-trade{
     background-color: #8338ec;
-    /* outline: 3px solid rgb(222, 113, 113); */
 
 }
 
