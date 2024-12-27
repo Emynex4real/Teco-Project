@@ -112,8 +112,8 @@ nav{
 
   .level{
     background-image: url(image/user-level-bg-DUoalwvH.png);
-    background-size: cover;
-    width: 210px;
+    background-size: contain;
+    width: 180px;
     height: 50px;
     display: flex;
     /* justify-content: center; */
@@ -123,6 +123,8 @@ nav{
     background-repeat: no-repeat;
     display: flex;
     gap: 5px;
+    background-position: center;
+    
     /* border: 2px solid; */
 
   }
@@ -133,7 +135,7 @@ nav{
 
   .profile-info span {
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1rem;
     /* border: 2px solid; */
 
   }
