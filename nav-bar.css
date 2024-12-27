@@ -10,7 +10,7 @@ nav{
 }
 
 :root{
-    --primary-color: #9C13EC;
+    --primary-color: white;
     --secondary-color: #FF9320;
     --black-color: black;
     --white-color: white;
@@ -70,7 +70,7 @@ nav{
 
 .profile-card {
     /* background-color: #6a29ff; */
-    width: 400px;
+    /* width: 400px; */
     border-radius: 12px;
     overflow: hidden;
     color: white;
@@ -144,6 +144,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 5px;
+    color: black;
   }
 
   .profile-coins img{
