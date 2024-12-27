@@ -1,14 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 nav{
     /* border: 2px  solid; */
 }
 
 :root{
-    --primary-color: #5F48E1;
-    --secondary-color: #F9750A;
+    --primary-color: #9C13EC;
+    --secondary-color: #FF9320;
     --black-color: black;
     --white-color: white;
     --very-bold: 700;
-    --light-border: #FFF617;
+    --light-border: #FFFB00;
     
 }
 
@@ -59,3 +66,113 @@ nav{
 
 .fa-file-lines{
 }
+
+
+.profile-card {
+    /* background-color: #6a29ff; */
+    width: 400px;
+    border-radius: 12px;
+    overflow: hidden;
+    color: white;
+  }
+
+  .profile-header {
+    /* background-color: #ff68f6; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+  }
+
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    /* border: 2px solid; */
+  }
+  .username{
+    background-image: url(image/user-name-bg-DDVefU_6.png);
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+  }
+
+  .profile-info h2 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffdcf1;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+  }
+
+  .level{
+    background-image: url(image/user-level-bg-DUoalwvH.png);
+    background-size: cover;
+    width: 210px;
+    height: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 5px;
+    /* border: 2px solid; */
+
+  }
+
+   .level img{
+    width: 10px;
+   }
+
+  .profile-info span {
+    font-weight: 700;
+    font-size: 1.2rem;
+    /* border: 2px solid; */
+
+  }
+
+  .profile-coins {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .profile-coins img{
+    width: 35px;
+  }
+
+  .profile-footer {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #4a1da9; */
+    padding: 10px 20px;
+  }
+
+  .footer-btn {
+    background-color: #fda417;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    /* padding: 8px 15px; */
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+    font-weight: 700;
+    border: 5px solid var(--light-border);
+  }
+
+  .footer-btn:hover {
+    background-color: #f9b85d;
+  }

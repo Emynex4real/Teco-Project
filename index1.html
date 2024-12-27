@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1d1d36;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .profile-card {
+      background-color: #6a29ff;
+      width: 400px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      color: white;
+    }
+
+    .profile-header {
+      background-color: #ff68f6;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .profile-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .profile-info h2 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ffdcf1;
+      display: flex;
+      align-items: center;
+    }
+
+    .profile-info h2::before {
+      content: "🏅"; /* Icon for the username */
+      margin-right: 8px;
+      font-size: 1.2rem;
+    }
+
+    .profile-info span {
+      font-size: 1rem;
+      color: white;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 4px;
+      padding: 2px 8px;
+      background-color: #ffd700; /* Gold background */
+      border-radius: 5px;
+      font-family: "Arial", sans-serif;
+      text-transform: uppercase;
+    }
+
+    .profile-coins {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .profile-footer {
+      display: flex;
+      justify-content: space-between;
+      background-color: #4a1da9;
+      padding: 10px 20px;
+    }
+
+    .footer-btn {
+      background-color: #fda417;
+      border: none;
+      color: white;
+      font-size: 0.9rem;
+      padding: 8px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      text-align: center;
+      flex: 1;
+      margin: 0 5px;
+    }
+
+    .footer-btn:hover {
+      background-color: #f9b85d;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="profile-header">
+      <div class="profile-info">
+        <h2>emynex4re</h2>
+        <span>LV7 Enthusiast</span>
+      </div>
+      <div class="profile-coins">546,200</div>
+    </div>
+    <div class="profile-footer">
+      <button class="footer-btn">Daily Tasks</button>
+      <button class="footer-btn">Join Squad</button>
+      <button class="footer-btn">YES Win</button>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exact Shape</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1d1d36;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .label {
+      position: relative;
+      display: inline-block;
+      padding: 10px 20px 10px 15px;
+      background: linear-gradient(90deg, #FFD700, #FFA500);
+      color: black;
+      font-weight: bold;
+      font-size: 14px;
+      border-radius: 20px 0 0 20px;
+      clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .label::after {
+      content: "▶";
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 16px;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="label">
+    LV7 Enthusiast
+  </div>
+</body>
+</html>
