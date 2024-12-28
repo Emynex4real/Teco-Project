@@ -9,6 +9,7 @@
     line-height: 1.5;
 
 }
+
 :root{
     --primary-color: #1C1C1E;
     --secondary-color: #8338ec;
@@ -23,15 +24,43 @@ body{
     background-color: var(--primary-color);
     
 }
+.big-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.task-container{
+    background: url(image/blue-bg-dot-D02CQDn2.png) var(--secondary-color);
+    text-align: center;
+    padding: 40px 0 20px 0;
+    border-radius: 10px;
+}
+.task-container img{
+    width: 150px;
+}
 
-.common-details{
-    width: 90%;
+.task-container .text{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-top: 10px;
+}
+.task-details{
+    width: 95%;
     margin: auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.common-bonus{
+
+.task-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.task-details .common-bonus{
     background-color: var(--secondary-color);
     height: 40px;
     display: flex;
@@ -41,71 +70,46 @@ body{
     background: linear-gradient(to right, #7A01FF, #BC2DFF);
     
 }
-.common-bonus .head{
+.task-details .common-bonus .head{
     font-weight: 700;
+    color: var(--white-color);
 }
 
-.bonus-details{
-    background-color: var(--secondary-color);
-    background: linear-gradient(to right, #7A01FF, #BC2DFF);
-    border-radius: 10px;
-    padding: 30px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.send-gift{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.send-gift img{
-    width: 60px;
-}
-
-.send-gift .text{
-    font-weight: 700;
-    font-size: 1rem;
-}
-
-.bonus-details .invite{
+.task-content .task{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--white-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+
 }
-.bonus-details .invite-friend{
+.the-task .task-detail{
+    
+}
+
+
+.task-content .the-task{
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.invite-friend img{
+.the-task img{
     width: 60px;
 }
-.invite-friend .head{
+.the-task .head{
     font-weight: 700;
     font-size: 1.1rem;
 }
 
-.invite-friend .text{
+.the-task .text{
     /* text-align: center; */
     font-weight: 500;
 }
 
-.invite .arrow{
+.task .arrow{
     width: 30px;
     height: 30px;
+    col
     /* border: 2px solid; */
 }
-.
-
-
-
-
-
-
-
-
-
-/* 7A01FF */
-/* BC2DFF */
