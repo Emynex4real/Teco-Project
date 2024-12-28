@@ -64,6 +64,7 @@ body{
     background: url(image/bg-card.png) var(--secondary-color);
     background-position: right;
     background-size: cover;
+    background: linear-gradient(to right, #7A01FF, #BC2DFF);
 }
 
 .profit-reward-container .text{
