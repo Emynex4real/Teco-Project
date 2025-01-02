@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+:root{
+    --primary-color: #1C1C1E;
+    --secondary-color: #8338ec;
+    --black-color: black;
+    --white-color: white;
+    --very-bold: 700;
+    --light-border: #FF9320;
+    
+}
+
+body{
+    background-color: var(--primary-color);
+    
+}
+.bot-trade{
+    /* color: var(--white-color); */
+    width: 90%;
+    margin: auto;
+}
+
+
+.bot-trade-panel{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.bot-trade-panel .head{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--white-color);
+}
+
+.bot-trade-panel button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--light-border);
+    color: white;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.bot-container{
+    background-color: var(--white-color);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bot-container .head{
+    font-weight: 700;
+}
+
+.bot-container .amount,
+.bot-container .date-time{
+    font-size: .85rem;
+}
+.bot-container .price{
+    font-weight: 700;
+}
+
+.withdrawal-history{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.withdrawal-history .header{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--white-color);
+}
+.withdraw-container{
+    background-color: var(--white-color);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.withdraw-container .head{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.withdraw-container .amount,
+.withdraw-container .time-date,
+.pending .text{
+    font-size: .85rem;
+}
+
+.pending .text{
+    background-color: var(--light-border);
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+}
